@@ -1,0 +1,60 @@
+body{
+  background-color: pink;
+  margin: 1%;
+  padding: 2%;
+  background-image: url(../Img/foned.jpg) ;
+  background-repeat: repeat;
+  }
+  main{
+    text-align: center;
+  }
+figure{
+  font-size: 25px;
+  background-color: rgba(212, 103, 121, 0.909);
+align-items: center;
+}
+ul{
+text-align: center;
+}
+#colorPink{
+  text-align: center;
+font-size: 50px;
+font-style: italic;
+color: rgb(211, 33, 98);
+}
+#list{
+  flex-flow: wrap;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+.cuadro{
+  background-color:rgb(241, 162, 188);
+}
+.info{
+color:gray;
+font-size: 15px;
+  }
+  .box{
+border-color: rgb(220, 145, 158);
+border-style: inset;
+border: 1 solid ;
+background-color: rgb(235, 167, 190);
+  }
+  .bi bi-airplane{
+color: black;
+  }
+  .offcanvas-body{
+text-align: center;
+color: palevioletred;
+  }
+  /**
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   }
+   .cat {
+    height:200px;
+    width: 200px;
+   }
