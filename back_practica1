@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mi primer programa de back </h1>
+<?php
+    //saludo
+    $saludo = "hola mundo, vamos a realizar unas operaciones matematicas";
+    echo $saludo ;
+
+    // Suma de dos variables
+    $num1 = 23 ;
+    $num2 = 22 ;
+    $suma = $num1 + $num2;
+    print "<p> la suma de dos numeros es</p> $suma";
+   
+    //Resta de dos variables
+    $resta = $num1 - $num2;
+    print "<p> la resta es </p> $resta";
+   
+    //Multiplicacion
+    $multiplicacion = $num1 * $num2;
+    print "<p> la multiplicacion es </p> $multiplicacion";
+   
+    //division
+    $division = $num1 / $num2;
+    print "<p> la division es </p> $division";
+
+    // paso a Farhenhet
+    $celsius = 20 ;
+    $farenheint = ($celsius *9 / 5 ) + 32;
+    print "<p>La transformacion de Celsius a Fahrenheint de 20° es </p>$farenheint";
+
+    // perimetro de un rectangulo
+    $base = 12;
+    $altura = 18;
+    $perimetro_rectangulo = 2 * ($base + $altura);
+    print "<p>El area de un rectangulo con 12cm de altura y 18 de alto es</p> $perimetro_rectangulo";
+    // area de un rectangulo
+    $area_rectangulo = $altura * $base ;
+    print"<p> Y su area es</p>$area_rectangulo";
+    
+    // calcular perimetro de circulo
+    $rad_cir = 30;
+    $peri_cir = 2 * 3.1416 * $rad_cir;
+    print "<p>El perimetro de un circulo con 30cm de circunferencia es</p>$peri_cir";
+    $area_cir = 3.1416 *($rad_cir * $rad_cir);
+    print"<p>Y su area es</p> $area_cir";
+?>
+</body>
+</html>
