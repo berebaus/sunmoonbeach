@@ -41,7 +41,7 @@ if ($numero1 > $numero2) {
 } elseif ($numero1 < $numero2) {
     echo  = ($numero1 / $numero2);
     echo  = ($numero1 * $numero2);
-    echo  = ($numero1 % $numero2)
+    echo  = ($numero1 % $numero2);
 }else {
   echo "Los numeros ingresados son iguales";
 }   
