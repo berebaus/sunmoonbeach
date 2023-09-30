@@ -7,12 +7,10 @@ $ckusuario = "admin";
 $ckpass = 1234;
 
 if ($usuario==$ckusuario && $contrasenia==$ckpass ){
-    header ("location:https://www.nasa.gov/content/ultra-high-definition-video-gallery")
-  
+    header ("location:https://www.nasa.gov")
 } else {
-    echo"incorrecto";
-    //header("location: login.html");
+    echo "ERROR";
     header("location:https://www.nasa.gov/s/ ");
-
 }
+
 ?>
